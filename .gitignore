@@ -1,1 +1,16 @@
 rabisco.ipynb
+
+# Ignorar arquivos de compilação do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar Logs
+*.log
+logs/
+
+# Ignorar configurações de IDE
+.vscode/
+.idea/
+
+# Ignorar Variáveis de Ambiente (SEGURANÇA!)
+.env
